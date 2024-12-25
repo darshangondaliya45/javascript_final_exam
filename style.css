@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240806/pngtree-sport-stadium-soccer-game-with-spotlight-midfield-image_16142785.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#ffffffa6;
+    border-radius: 5px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px 20px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsla(249, 78%, 2%, 0.784);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f20606;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  #result-page {
+    text-align: center;
+  }
+  
+  #results {
+    margin-bottom: 20px;
+    text-decoration:underline ;
+    color: rgb(8, 8, 8);
+  }
+  
